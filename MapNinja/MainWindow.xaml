@@ -14,8 +14,8 @@
             <TextBlock x:Name="ipAddressLabel" Text="IP Address" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox x:Name="ipAddress" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="127.0.0.1"/>
             <TextBlock x:Name="keyPressLabel" Text="Key" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBox x:Name="keyPress" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="G"/>
-            <TextBlock x:Name="sceneLabel" Text="Scene" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <!--<TextBox x:Name="keyPress" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="G"/>-->
+            <!--<TextBlock x:Name="sceneLabel" Text="Scene" HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
             <TextBox x:Name="scene" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" PlaceholderText="map"/>
             <Button x:Name="connectButton" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Connect" Click="connectButton_Click" />
             <TextBlock x:Name="statusLabel" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Italic"/>

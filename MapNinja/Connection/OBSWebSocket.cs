@@ -26,6 +26,11 @@ namespace MapNinja.Connection
             isConnected = true;
         }
 
+        public async Task ChangeScene(string sceneName)
+        {
+           await ws.SendAsync(new ArraySegment<byte>(System.Text.Encoding.UTF8.GetBytes("{\"op\": 6,\"d\": {\"requestType\": \"SetCurrentProgramScene\",\"requestId\": \"f819dcf0-89cc-11eb-8f0e-382c4ac93b9c\",\"requestData\": {\"sceneName\": \"" + sceneName + "\"}}}")), WebSocketMessageType.Text, true, new System.Threading.CancellationToken());
+        }
+
         public async void Dispose()
         {
             if (ws != null && ws.State == WebSocketState.Open)
