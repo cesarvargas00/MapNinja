@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MapNinja (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MapNinja (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
